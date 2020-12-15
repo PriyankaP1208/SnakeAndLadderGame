@@ -21,6 +21,8 @@ class SnakeAndLadder
 				case 2:
 						position+=diceRoll;
 						System.out.println("ladder");
+						if(position<=100)
+							position+=diceRoll;
 						break;
 				case 3:
 						System.out.println("Snake");
